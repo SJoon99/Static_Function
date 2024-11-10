@@ -1,8 +1,8 @@
 import os
 import argparse
 import pandas as pd
-from dataset_processor import process_package
-from parser_utils import pattern_matches
+from utils.dataset_processor import process_package
+from utils.parser_utils import pattern_matches
 
 
 def main(dataset_directory, output_file):

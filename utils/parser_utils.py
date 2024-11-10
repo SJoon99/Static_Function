@@ -1,4 +1,4 @@
-from patterns import get_patterns
+from utils.patterns import get_patterns
 pattern_matches = []
 
 def ASTNode_pattern_match(node, source_code, language_extension, package_name, file_name):

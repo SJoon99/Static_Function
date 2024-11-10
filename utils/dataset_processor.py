@@ -1,8 +1,8 @@
 import os
 import json
 from tree_sitter import Parser
-from config import LANGUAGES
-from parser_utils import ASTNode_pattern_match, pattern_matches
+from utils.config import LANGUAGES
+from utils.parser_utils import ASTNode_pattern_match, pattern_matches
 
 # 패키지 내의 모든 소스코드 파일 처리
 def process_package(package_path, package_name):

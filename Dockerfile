@@ -15,10 +15,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /static
 
 # 줄 바꿈 변환
-RUN dos2unix /static/entrypoint.sh /static/package_unpack.sh
+RUN dos2unix /static/scripts/entrypoint.sh /static/scripts/package_unpack.sh
 
 # 실행 권한 부여
-RUN chmod +x /static/entrypoint.sh /static/package_unpack.sh
+RUN chmod +x /static/scripts/entrypoint.sh /static/scripts/package_unpack.sh
 
 # ENTRYPOINT 설정
-ENTRYPOINT ["/static/entrypoint.sh"]
+ENTRYPOINT ["/static/scripts/entrypoint.sh"]
