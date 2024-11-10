@@ -54,3 +54,9 @@ sudo docker run --rm \
 - **/path/to/output/directory**: 결과 CSV 파일이 저장될 디렉토리의 절대 경로 ( 현제 디렉토리의 output 디렉토리 추천 )
 - **result.csv**: 데이터셋 결과 파일명은 원하는 대로 변경 가능.
 
+---
+### 윈도우 환경
+윈도우 환경에서는
+1. 윈도우 WSL 환경에서 실행
+2. Docker Desktop설치 후( WSL 연동 ) PowerShell에서 진행
+   
