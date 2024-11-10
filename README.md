@@ -45,18 +45,29 @@ StaticFunction은 **데이터셋(패키지 모음) 디렉토리**를 받아 각 
 ```bash
 sudo docker run --rm \
   -v /path/to/your/dataset:/static/dataset \
-  -v /path/to/output/directory:/static/output \
+  -v $(pwd)/output:/static/output \
   static \
   /static/dataset \
   /static/output/result.csv
 ```
 - **/path/to/your/dataset**: 분석할 데이터셋 디렉토리의 절대 경로.
-- **/path/to/output/directory**: 결과 CSV 파일이 저장될 디렉토리의 절대 경로 ( 현제 디렉토리의 output 디렉토리 추천 )
+- **$(pwd)/output:/static/output**: 결과 CSV 파일이 저장될 디렉토리의 절대 경로 ( git clone시 같이 다운받아지는 현재 디렉토리의 output 디렉토리 추천 )
 - **result.csv**: 데이터셋 결과 파일명은 원하는 대로 변경 가능.
 
 ---
 ### 윈도우 환경
-윈도우 환경에서는
 1. 윈도우 WSL 환경에서 실행
+   - WSL(리눅스 환경)에서 실행
+
 2. Docker Desktop설치 후( WSL 연동 ) PowerShell에서 진행
+   - PowerShell에서 리눅스와 마찬가지로 이미지 빌드, 컨테이너 실행
+
+```bash
+docker run --rm `
+  -v C:/users/tkdwn/test/Dataset:/static/dataset `
+  -v ${PWD}/output:/static/output `
+  static `
+  /static/dataset `
+  /static/output/result.csv
+```
    
