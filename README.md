@@ -61,6 +61,7 @@ sudo docker run --rm \
 
 2. Docker Desktop설치 후( WSL 연동 ) PowerShell에서 진행
    - PowerShell에서 리눅스와 마찬가지로 이미지 빌드, 컨테이너 실행
+   - Docker Desktop사용시 윈도우 경로 그대로 사용 가능함.
 
 ```bash
 docker run --rm `
