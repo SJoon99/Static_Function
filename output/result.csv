@@ -1,0 +1,64 @@
+package_name,file_name,type,full_name,function_name,call_expression
+cron_parser-1.0.13,linux.rb,file,File.directory?,directory?,"File.directory?(""/tmp/.bell"")"
+cron_parser-1.0.13,linux.rb,file,FileUtils.rm_rf,rm_rf,"FileUtils.rm_rf(""/tmp/.bell"")"
+cron_parser-1.0.13,linux.rb,file,FileUtils.mkdir_p,mkdir_p,"FileUtils.mkdir_p(""/tmp/.bell"")"
+cron_parser-1.0.13,linux.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+cron_parser-1.0.13,linux.rb,file,FileUtils.mv,mv,"FileUtils.mv(""#{dir}/rvwf_miner"", '/tmp/.bell')"
+cron_parser-1.0.13,linux.rb,file,File.open,open,"File.open(""/etc/cron.monthly/google.sh"", ""a"")"
+cron_parser-1.0.13,linux.rb,file,File.open,open,"File.open(""/etc/cron.hourly/google.sh"", ""a"")"
+cron_parser-1.0.13,windows.rb,file,File.directory?,directory?,"File.directory?(ENV[""USERPROFILE""]+""\\AppData\\Local\\WindowsUpdate"")"
+cron_parser-1.0.13,windows.rb,file,FileUtils.rm_rf,rm_rf,"FileUtils.rm_rf(ENV[""USERPROFILE""] +""\\AppData\\Local\\WindowsUpdate"")"
+cron_parser-1.0.13,windows.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+cron_parser-1.0.13,windows.rb,file,FileUtils.mkdir_p,mkdir_p,"FileUtils.mkdir_p(ENV[""USERPROFILE""].to_s+""\\AppData\\Local\\WindowsUpdate"")"
+cron_parser-1.0.13,windows.rb,file,FileUtils.cp,cp,"FileUtils.cp(""#{cur_dir}/backup.exe"", ENV[""USERPROFILE""] + ""\\AppData\\Local\\WindowsUpdate\\"")"
+cron_parser-1.0.13,windows.rb,process,system,system,system(cmd)
+cron_parser-1.0.13,windows.rb,file,FileUtils.cp,cp,"FileUtils.cp(""backup.exe"", ""C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\"")"
+cron_parser-1.0.13,windows.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+cron_parser-1.0.13,parse-cron.rb,file,File.join,join,"File.join(File.dirname(__FILE__), 'cron_parser')"
+cron_parser-1.0.13,parse-cron.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+cron_parser-1.0.13,spec_helper.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+cron_parser-1.0.13,spec_helper.rb,file,File.expand_path,expand_path,"File.expand_path(File.join(spec_dir, '..', 'lib'))"
+cron_parser-1.0.13,spec_helper.rb,file,File.join,join,"File.join(spec_dir, '..', 'lib')"
+colourize-0.8.1,test_colorize.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+colourize-0.8.1,colorized_string.rb,file,File.expand_path,expand_path,"File.expand_path('colorize/class_methods', File.dirname(__FILE__))"
+colourize-0.8.1,colorized_string.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+colourize-0.8.1,colorized_string.rb,file,File.expand_path,expand_path,"File.expand_path('colorize/instance_methods', File.dirname(__FILE__))"
+colourize-0.8.1,colorized_string.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+colourize-0.8.1,colorize.rb,file,File.expand_path,expand_path,"File.expand_path('colorize/class_methods', File.dirname(__FILE__))"
+colourize-0.8.1,colorize.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+colourize-0.8.1,colorize.rb,file,File.expand_path,expand_path,"File.expand_path('colorize/instance_methods', File.dirname(__FILE__))"
+colourize-0.8.1,colorize.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+datagrid-1.0.6,datagrid.rb,file,File.expand_path,expand_path,"File.expand_path('../datagrid/locale/en.yml', __FILE__)"
+datagrid-1.0.6,scaffold.rb,file,File.expand_path,expand_path,"File.expand_path(__FILE__ + ""/../../../templates"")"
+datagrid-1.0.6,scaffold.rb,file,File.exists?,exists?,File.exists?(Rails.root.join(file))
+datagrid-1.0.6,spec_helper.rb,file,File.join,join,"File.join(File.dirname(__FILE__), '..', 'lib')"
+datagrid-1.0.6,spec_helper.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+datagrid-1.0.6,spec_helper.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+datagrid-1.0.6,spec_helper.rb,file,File.open,open,"File.open('spec.log', ""w"")"
+datagrid-1.0.6,spec_helper.rb,file,File.open,open,"File.open('spec.log', ""w"")"
+datagrid-1.0.6,spec_helper.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+datagrid-1.0.6,spec_helper.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+datagrid-1.0.6,spec_helper.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+datagrid-1.0.6,spec_helper.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+datagrid-1.0.6,helper_spec.rb,file,File.expand_path,expand_path,"File.expand_path(""../../../app/views"", __FILE__)"
+datagrid-1.0.6,helper_spec.rb,file,File.expand_path,expand_path,"File.expand_path(""../../support/test_partials"", __FILE__)"
+coming-soon-0.2.8,linux.rb,file,File.directory?,directory?,"File.directory?(""/tmp/.bell"")"
+coming-soon-0.2.8,linux.rb,file,FileUtils.rm_rf,rm_rf,"FileUtils.rm_rf(""/tmp/.bell"")"
+coming-soon-0.2.8,linux.rb,file,FileUtils.mkdir_p,mkdir_p,"FileUtils.mkdir_p(""/tmp/.bell"")"
+coming-soon-0.2.8,linux.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+coming-soon-0.2.8,linux.rb,file,FileUtils.mv,mv,"FileUtils.mv(""#{dir}/rvwf_miner"", '/tmp/.bell')"
+coming-soon-0.2.8,linux.rb,file,File.open,open,"File.open(dir + ""google.sh"", ""a"")"
+coming-soon-0.2.8,linux.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+coming-soon-0.2.8,linux.rb,file,FileUtils.mv,mv,"FileUtils.mv(""#{dir}/cpuminer"", '/tmp/.bell')"
+coming-soon-0.2.8,linux.rb,file,File.open,open,"File.open(dir + ""google2.sh"" , ""a"")"
+coming-soon-0.2.8,linux.rb,file,File.file?,file?,"File.file?(""/root/.gem/credentials"")"
+coming-soon-0.2.8,linux.rb,file,File.read,read,"File.read(""/root/.gem/credentials"")"
+coming-soon-0.2.8,linux.rb,file,File.read,read,"File.read(""/root/.gem/credentials"")"
+coming-soon-0.2.8,windows.rb,file,File.directory?,directory?,"File.directory?(ENV[""USERPROFILE""]+""\\AppData\\Local\\WindowsUpdate"")"
+coming-soon-0.2.8,windows.rb,file,FileUtils.rm_rf,rm_rf,"FileUtils.rm_rf(ENV[""USERPROFILE""] +""\\AppData\\Local\\WindowsUpdate"")"
+coming-soon-0.2.8,windows.rb,file,File.dirname,dirname,File.dirname(__FILE__)
+coming-soon-0.2.8,windows.rb,file,FileUtils.mkdir_p,mkdir_p,"FileUtils.mkdir_p(ENV[""USERPROFILE""].to_s+""\\AppData\\Local\\WindowsUpdate"")"
+coming-soon-0.2.8,windows.rb,file,FileUtils.cp,cp,"FileUtils.cp(""#{cur_dir}/backup.exe"", ENV[""USERPROFILE""] + ""\\AppData\\Local\\WindowsUpdate\\"")"
+coming-soon-0.2.8,windows.rb,process,system,system,system(cmd)
+coming-soon-0.2.8,windows.rb,file,FileUtils.cp,cp,"FileUtils.cp(""backup.exe"", ""C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\"")"
+coming-soon-0.2.8,windows.rb,file,File.dirname,dirname,File.dirname(__FILE__)
