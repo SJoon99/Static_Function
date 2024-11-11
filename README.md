@@ -3,7 +3,7 @@
 ### 소개
 <img src="https://github.com/SJoon99/Static_Function/blob/main/image%20(1).png"  width="400" height="300"/>
 
-StaticFunction은 **데이터셋(패키지 모음) 디렉토리**를 받아 각 파일의 확장자에 맞게 압축을 해제하고, 각 패키지의 모든 소스코드를 AST(추상 구문 트리) 분석하여 **주요 유형의 함수만 추출하여 새로운 데이터셋을 만드는 툴**
+StaticFunction은 **데이터셋(패키지 모음) 디렉토리**를 받아 각 파일의 확장자에 맞게 압축을 해제하고, 각 패키지의 모든 소스코드를 AST(추상 구문 트리) 분석후 **주요 유형의 함수만 추출하여 새로운 데이터셋을 만드는 툴**
 
 ---
 ### 주요 기능 및 목적
@@ -29,7 +29,7 @@ StaticFunction은 **데이터셋(패키지 모음) 디렉토리**를 받아 각 
 ---
 ### 설치방법
 
-1. Repositoy clone
+1. Repository clone
    
    ```bash
    git clone https://github.com/yourusername/StaticFunction.git
