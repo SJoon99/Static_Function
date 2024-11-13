@@ -19,15 +19,12 @@ def process_package(package_path, package_name):
 def process_file(file_path, package_name, file_name, language_extension):
     language_key = LANGUAGES[language_extension] # 언어 키값 추출 = 확장자 
     parser = Parser(language_key) # 언어 키값으로 파서 생성
-    try:
-        with open(file_path, "rb") as f:
-            source_code = f.read()
-        print("Source Code: ", file_path)
 
-        tree = parser.parse(source_code) # 소스코드 파서로 트리 생성
-        root_node = tree.root_node
+    with open(file_path, "rb") as f:
+        source_code = f.read()
+    print("Source Code: ", file_path)
 
-        ASTNode_pattern_match(root_node, source_code, language_extension, package_name, file_name)
-    except Exception as e:
-        print(f"Processing Error : {file_path}: {e}")
-        pass
+    tree = parser.parse(source_code) # 소스코드 파서로 트리 생성
+    root_node = tree.root_node
+
+    ASTNode_pattern_match(root_node, source_code, language_extension, package_name, file_name)
